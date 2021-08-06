@@ -106,7 +106,8 @@ gbm.perf(bikes_gbml, method = "cv")
 # 3. Fix tree hyper-parameters and tune learning rate and access speed versus performance
 # 4. Tune specific parameters for decided learning rate
 # 5. Once tree specific parameters have been found, lower the learning rate to assess for any improvements in accuracy
-# 6. Use final hyper-parameter settings and increase CV procedures to get more robust estimates. Often, the above steps are performed with a simple validation procedure of 5 fold CV due to computational constraints. If you used k-fold CV throughout steps 1 to five, then this step is not necessary.
+# 6. Use final hyper-parameter settings and increase CV procedures to get more robust estimates. Often, the above steps are performed with a simple validation procedure of
+# 5 fold CV due to computational constraints. If you used k-fold CV throughout steps 1 to five, then this step is not necessary.
 
 ###############
 ###############
